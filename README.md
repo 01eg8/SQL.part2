@@ -44,7 +44,7 @@
     HAVING COUNT(c2.customer_id) > 300;
 
 
-![img]()
+![img](https://github.com/01eg8/SQL.part2/blob/main/img/Screenshot%20from%202025-03-13%2000-36-28.png)
 
 ### Задание 2
 
@@ -54,7 +54,7 @@
     WHERE length > (SELECT AVG(length) FROM film)
 
 
-![img]()
+![img](https://github.com/01eg8/SQL.part2/blob/main/img/Screenshot%20from%202025-03-13%2000-36-37.png)
 
 ### Задание 3
 
@@ -66,7 +66,7 @@
     LIMIT 1
 
 
-![img]()
+![img](https://github.com/01eg8/SQL.part2/blob/main/img/Screenshot%20from%202025-03-13%2000-36-49.png)
 
 ### Задание 4
 
@@ -80,7 +80,7 @@
     ORDER BY COUNT(payment_id) DESC
 
 
-![img]()
+![img](https://github.com/01eg8/SQL.part2/blob/main/img/Screenshot%20from%202025-03-13%2000-37-01.png)
 
 ### Задание 5
 
@@ -91,5 +91,5 @@
     WHERE r.rental_id is null
 
 
-![img]()
+![img](https://github.com/01eg8/SQL.part2/blob/main/img/Screenshot%20from%202025-03-13%2000-37-42.png)
 
