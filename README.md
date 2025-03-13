@@ -58,10 +58,11 @@
 
 ### Задание 3
 
-    SELECT MONTH(p.payment_date), SUM(p.amount), COUNT(r.rental_id)
+    SELECT date_format(p.payment_date, '%Y-%M') as month1,
+    SUM(p.amount) as сумма, COUNT(r.rental_id) as количество
     FROM payment p
     JOIN rental r ON r.rental_id = p.rental_id
-    GROUP BY MONTH(p.payment_date)
+    GROUP BY month1
     ORDER BY SUM(p.amount) DESC
     LIMIT 1
 
