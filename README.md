@@ -67,7 +67,7 @@
     LIMIT 1
 
 
-![img](https://github.com/01eg8/SQL.part2/blob/main/img/Screenshot%20from%202025-03-13%2000-36-49.png)
+![img](https://github.com/01eg8/SQL.part2/blob/main/img/Screenshot%20from%202025-03-13%2021-42-40.png)
 
 ### Задание 4
 
